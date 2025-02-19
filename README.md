@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projet Next.js
 
-## Getting Started
+Ceci est un projet [Next.js](https://nextjs.org) initialisé avec [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-First, run the development server:
+## 🚀 Pour démarrer
+
+Tout d'abord, lancez le serveur de développement :
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
+# ou
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Vous pouvez commencer à modifier la page en éditant le fichier `app/page.tsx`. La page se met automatiquement à jour au fur et à mesure de vos modifications.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ce projet utilise [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) pour optimiser automatiquement et charger [Geist](https://vercel.com/font), une nouvelle famille de polices pour Vercel.
 
-## Learn More
+## 📚 En savoir plus
 
-To learn more about Next.js, take a look at the following resources:
+Pour en apprendre davantage sur Next.js, consultez les ressources suivantes :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [📖 Documentation Next.js](https://nextjs.org/docs) - pour découvrir les fonctionnalités et l'API de Next.js.
+- [🎓 Apprendre Next.js](https://nextjs.org/learn) - un tutoriel interactif sur Next.js.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Vous pouvez également consulter le [🔗 dépôt GitHub de Next.js](https://github.com/vercel/next.js) – vos retours et contributions sont les bienvenus !
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏗️ Bases de Next.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js est un framework React qui offre :
+
+### 📌 Rendu côté serveur (SSR) et génération de sites statiques (SSG)
+✅ Améliore les performances et le référencement en générant des pages HTML prêtes à être servies.
+
+### 📌 Routing basé sur le système de fichiers
+✅ Placez simplement vos fichiers de page dans le dossier `app` (ou `pages` pour les versions antérieures) pour définir automatiquement vos routes.
+
+### 📌 Optimisation des performances
+✅ Code splitting, prefetching et gestion des polices intégrés pour un rendu plus rapide.
+
+### 📌 API Routes
+✅ Créez des endpoints en ajoutant des fichiers dans `app/api` pour une API intégrée à votre application.
+
+### 📌 Expérience de développement améliorée
+✅ Rechargement à chaud et configuration minimale pour se concentrer sur le développement.
+
+Ces fonctionnalités font de Next.js un excellent choix pour développer des applications web performantes et évolutives. 🚀
+
+
