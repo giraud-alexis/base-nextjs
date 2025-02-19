@@ -7,20 +7,12 @@ Ceci est un projet [Next.js](https://nextjs.org) initialisé avec [`create-next-
 Tout d'abord, lancez le serveur de développement :
 
 ```bash
-npm run dev
-# ou
 yarn dev
-# ou
-pnpm dev
-# ou
-bun dev
 ```
 
 Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur pour voir le résultat.
 
 Vous pouvez commencer à modifier la page en éditant le fichier `app/page.tsx`. La page se met automatiquement à jour au fur et à mesure de vos modifications.
-
-Ce projet utilise [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) pour optimiser automatiquement et charger [Geist](https://vercel.com/font), une nouvelle famille de polices pour Vercel.
 
 ## 📚 En savoir plus
 
@@ -41,7 +33,7 @@ Next.js est un framework React qui offre :
 ✅ Améliore les performances et le référencement en générant des pages HTML prêtes à être servies.
 
 ### 📌 Routing basé sur le système de fichiers
-✅ Placez simplement vos fichiers de page dans le dossier `app` (ou `pages` pour les versions antérieures) pour définir automatiquement vos routes.
+✅ Placez simplement vos fichiers de page dans le dossier `app` avec votre nom de dossier comme nom de route (ex: dossier about avec fichier page.tsx sera routé comme /about) pour définir automatiquement vos routes.
 
 ### 📌 Optimisation des performances
 ✅ Code splitting, prefetching et gestion des polices intégrés pour un rendu plus rapide.
